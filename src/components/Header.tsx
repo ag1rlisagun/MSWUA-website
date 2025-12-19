@@ -63,7 +63,7 @@ export function Header() {
               </NavLink>
             </motion.li>
             <motion.li variants={fadeDown}><NavLink 
-              to="/wip"
+              to="/outreach"
               className={({ isActive  }) => isActive ? "active" : ""}
               >Outreach
               </NavLink>

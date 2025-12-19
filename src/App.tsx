@@ -3,6 +3,7 @@ import './Theme.css';
 import { Header } from './components/Header.tsx';
 import { HomePage } from './pages/homepage/components/HomePage.tsx';
 import { ProjectPage } from './pages/projectpage/components/ProjectPage.tsx';
+import { OutreachPage } from './pages/outreachpage/components/OutreachPage.tsx';
 import { Footer } from './components/Footer.tsx';
 import { Routes, Route } from 'react-router';
 import LogoImage from './assets/images/mswua-logo.svg';
@@ -33,6 +34,7 @@ function App() {
         <Route path="/" element={<HomePage/>}/>
         <Route path="/projects" element={<ProjectPage/>}/>
         <Route path="/projects/:slug" element={<ProjectAbout/>}/>
+        <Route path="/outreach" element={<OutreachPage/>}/>
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/wip" element={<WipPage/>}/>
         <Route path="/team" element={<TeamPage/>}/>
