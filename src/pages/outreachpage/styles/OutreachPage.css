@@ -1,0 +1,292 @@
+#events {
+  display: block;
+  width: 100vw;
+  min-height: 2450px;
+  padding-top: 70px;
+  background: linear-gradient(var(--event-glow)3%, var(--bg-color) 50%, var(--bg-color) 82%, var(--event-glow) 100%);
+  position: relative;
+}
+
+.events-grid {
+  display: grid;
+  margin-top: 140px;
+  gap: 140px 20px;
+  grid-template: repeat(3, 1fr) / 1fr 1fr;
+  align-items: center;
+}
+
+.events-grid img {
+  width: 400px;
+  height: auto;
+  justify-self: center;
+}
+
+.can-text {
+  margin-left: 50%;
+  width: 380px;
+  transform: translateX(-50%);
+  text-align: left;
+}
+
+.can-text h2 {
+  font-size: 50px;
+  font-family: 'Lexend Giga', Arial;
+}
+
+.can-text .event-text {
+  padding-bottom: 25px;
+  padding-left: 5px;
+}
+
+.can-text h3 {
+  font-weight: normal;
+  color: var(--blue-highlight);
+  font-family: 'Inter', Arial;
+  padding-left: 5px;
+}
+
+.can-text button {
+  background: linear-gradient(to right, var(--header-gradient-1), var(--header-gradient-3));
+  border-radius: 50px;;
+}
+
+.events-grid .choices25 .event-title {
+  padding: 0px;
+}
+
+#events > h1 {
+  padding-top: 100px;
+  font-family: 'Lexend Giga', Arial;
+}
+
+#events > p {
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.h-line2 {
+  display: inline-block;
+  background-color: var(--highlight-color);
+  width: 1px;
+  margin: 0 auto;
+  transform-origin: top;
+}
+
+.line2-1 {
+  height: 400px;
+}
+
+.line2-2 {
+  height: 650px;
+}
+
+.line2-3 {
+  height: 650px;
+}
+
+.line2-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.checkpoint2-1,
+.checkpoint2-2,
+.checkpoint2-3 {
+  position: absolute;
+  width: 70px;
+  height: auto;
+}
+
+.checkpoint2-1 {
+  top: 375px;
+}
+
+.checkpoint2-2 {
+  top: 1025px;
+}
+
+.checkpoint2-3 {
+  top: 1675px;
+}
+
+/* Medium-small devices */
+@media (max-width: 600px) {
+
+  #events {
+    min-height: fit-content;
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+
+  #events > h1 {
+    font-size: 2.8rem;
+  }
+
+  .events-grid {
+    grid-template: repeat(6, 1fr) / 1fr;
+  }
+
+  .events-1 {
+    order: 1;
+  }
+
+  .events-img-1 {
+    order: 2;
+  }
+
+  .events-2 {
+    order: 3;
+  }
+
+  .events-img-2 {
+    order: 4;
+  }
+
+  .events-3 {
+    order: 5;
+  }
+
+  .events-img-3 {
+    order: 6;
+  }
+
+
+  .line2-section {
+    left: 50px;
+    margin-top: 100px;
+  }
+
+  .line2-1 {
+    height: 870px;
+  }
+
+  .line2-2 {
+    height: 690px;
+  }
+
+  .line2-3 {
+    height: 665px;
+  }
+
+  .checkpoint2-1 {
+    top: 155px;
+  }
+
+  .checkpoint2-2 {
+    top: 830px;
+  }
+
+  .checkpoint2-3 {
+    top: 1505px;
+  }
+
+  .can-text {
+    margin-left: calc(50% + 15%);
+    width: 380px;
+    text-align: left;
+  }
+
+  .can-text h2 {
+    font-size: 2.25rem;
+  }
+
+  .can-text h3 {
+    font-weight: normal;
+    color: var(--blue-highlight);
+    font-family: 'Inter', Arial;
+    padding-left: 5px;
+  }
+
+  .can-text button {
+    background: linear-gradient(to right, var(--header-gradient-1), var(--header-gradient-3));
+    border-radius: 50px;
+  }
+
+  .events-grid img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 376px) {
+  .line2-section {
+    left: 44px;
+    margin-top: 100px;
+  }
+
+  .can-text {
+    margin-left: calc(50% + 25%);
+    width: 380px;
+    text-align: left;
+  }
+
+  .can-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .checkpoint2-1 {
+    top: 145px;
+  }
+
+  .checkpoint2-2 {
+    top: 780px;
+  }
+
+  .checkpoint2-3 {
+    top: 1410px;
+  }
+}
+
+@media (max-width: 320px) {
+  .line2-section {
+    left: 35px;
+    margin-top: 100px;
+  }
+
+  #events > h1 {
+    font-size: 2.2rem;
+  }
+
+  .can-text {
+    margin-left: calc(50% + 20%);
+    width: 380px;
+    text-align: left;
+  }
+
+  .can-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .checkpoint2-1 {
+    top: 135px;
+  }
+
+  .checkpoint2-2 {
+    top: 766px;
+  }
+
+  .checkpoint2-3 {
+    top: 1399px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 992px){
+  .events-grid img {
+    width: 80%;
+  }
+  .can-text h2 {
+    font-size: 2.7rem;
+  }
+
+  .can-text h3 {
+    font-weight: normal;
+    color: var(--blue-highlight);
+    font-family: 'Inter', Arial;
+    padding-left: 5px;
+  }
+}
