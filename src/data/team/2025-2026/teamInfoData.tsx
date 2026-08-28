@@ -5,11 +5,6 @@ import Megan from "../../../assets/images/team/2025-2026/exec/Megan.png";
 import Jessica from "../../../assets/images/team/2025-2026/exec/Jessica.png";
 import Marie from "../../../assets/images/team/2025-2026/exec/Marie.png";
 import Aaliyah from "../../../assets/images/team/2025-2026/exec/Aaliyah.png";
-import Jasmine from "../../../assets/images/team/2025-2026/exec/Jasmine.png";
-import Sophie from "../../../assets/images/team/2025-2026/exec/Sophie.png";
-import Feelen from "../../../assets/images/team/2025-2026/exec/Feelen.png";
-import Kyla from "../../../assets/images/team/2025-2026/exec/Kyla.png";
-
 
 import NoPic from "../../../assets/images/background/explore-backgorund.png";
 
