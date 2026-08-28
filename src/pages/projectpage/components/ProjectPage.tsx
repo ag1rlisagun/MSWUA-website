@@ -58,9 +58,9 @@ export function ProjectPage () {
           <motion.img {...fadeBlurUp} className="projects-img-5" src={canSbx2Image} alt="can-sbx2 image" />
 
           <FadeTextDiv className="can-text projects-5">
-            <motion.h3 variants={fade}>2025-Present</motion.h3>
+            <motion.h3 variants={fade}>2025-26</motion.h3>
             <motion.h2 variants={fade}className="project-title">CAN-SBX VIII</motion.h2>
-            <motion.p variants={fade} className="project-text">Work In Progress</motion.p>
+            <motion.p variants={fade} className="project-text">Mission success!</motion.p>
             <Link to="/projects/can-sbx-viii"><motion.button variants={fade}>learn more</motion.button></Link>
           </FadeTextDiv>
 
