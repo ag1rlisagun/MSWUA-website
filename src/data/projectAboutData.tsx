@@ -35,6 +35,12 @@ import canRgxVIIImg6 from "../assets/images/photos/can-rgx-viii/can-rgx-viii-img
 
 // Can SBX VIII Images (still need images)
 import canSbxVIIImg1 from "../assets/images/photos/can-sbx-viii/can-sbx-viii-img-1.png";
+import canSbxVIIImg2 from "../assets/images/photos/can-sbx-viii/can-sbx-viii-img-2.png";
+import canSbxVIIImg3 from "../assets/images/photos/can-sbx-viii/can-sbx-viii-img-3.png";
+import canSbxVIIImg4 from "../assets/images/photos/can-sbx-viii/can-sbx-viii-img-4.png";
+import canSbxVIIImg5 from "../assets/images/photos/can-sbx-viii/can-sbx-viii-img-5.png";
+import canSbxVIIImg6 from "../assets/images/photos/can-sbx-viii/can-sbx-viii-img-6.png";
+
 
 export type ImgItem = { id: string; src: string; alt: string; class: string};
 
@@ -108,7 +114,12 @@ export const projects: Record<string, {
     tagline: "Mission success!",
     text: `MSW’s CAN-SBX VIII project aims engineer a photobiocell reactor (PHOEBE) designed to study the bioelectric performance of cyanobacteria under stratospheric conditions. The system will continuously monitor electrical output and oxygen evolution, to assess how radiation affects photosynthetic energy generation and metabolic activity. By understanding these responses, PHOEBE supports the development of biological power and life support systems for future space missions.`,
     images: [
-      { id: "1", src: canSbxVIIImg1, alt: "Image 1", class: "img-1" }
+      { id: "1", src: canSbxVIIImg1, alt: "Image 1", class: "img-1" },
+      { id: "2", src: canSbxVIIImg2, alt: "Image 2", class: "img-2" },
+      { id: "3", src: canSbxVIIImg3, alt: "Image 3", class: "img-3" },
+      { id: "4", src: canSbxVIIImg4, alt: "Image 4", class: "img-4" },
+      { id: "5", src: canSbxVIIImg5, alt: "Image 5", class: "img-5" },
+      { id: "6", src: canSbxVIIImg6, alt: "Image 6", class: "img-6" },
     ],
   },
 };
