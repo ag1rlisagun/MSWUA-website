@@ -3,6 +3,7 @@ import EmailIcon from '../assets/images/icons/email-icon.svg';
 import InstagramIcon from '../assets/images/icons/ig-icon.svg';
 import TiktokIcon from '../assets/images/icons/tiktok-icon.svg';
 import VscoIcon from '../assets/images/icons/vsco-icon.svg';
+import DiscordIcon from '../assets/images/icons/discord-icon.png';
 
 export function Footer() {
   return (
@@ -21,6 +22,7 @@ export function Footer() {
                 <img src={EmailIcon} alt="email icon" />
               </a>
               <a href="https://www.instagram.com/missionspacewalker/" target="_blank" rel="noopener noreferrer"><img src={InstagramIcon} alt="instagram icon" /></a>
+              <a href="https://discord.gg/GffzWWVUMJ" target="_blank" rel="noopener noreferrer"><img src={DiscordIcon} alt="discord icon" /></a>
               <a href="https://www.tiktok.com/@missionspacewalker" target="_blank" rel="noopener noreferrer"><img src={TiktokIcon} alt="tiktok icon" /></a>
               <a href="https://vsco.co/missionspacewalker/gallery" target="_blank" rel="noopener noreferrer"><img src={VscoIcon} alt="vsco icon" /></a>
             </div>
@@ -28,7 +30,7 @@ export function Footer() {
         </div>
         <div className="separator"></div>
         <div className="footer-line"></div>
-        <p>&copy; Copyright 2025 MSWUA</p>
+        <p>&copy; Copyright 2026 MSWUA</p>
       </footer>
     </>
   )

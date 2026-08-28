@@ -12,7 +12,7 @@ export function OutreachPage () {
 
   return (
     <>
-      <div id="events">
+      <div id="events-outreach">
         <h1>Our Outreach</h1>
         <p>Where Purpose Meets Action</p>
 

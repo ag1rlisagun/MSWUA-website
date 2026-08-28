@@ -90,7 +90,7 @@ export const projects: Record<string, {
   },
   "can-rgx-viii": {
     title: "CAN-RGX-VIII",
-    date: "2024-2025",
+    date: "2024-25",
     tagline: "Our Recent Feat",
     text: `CAN-RGX VIII project focused on studying how cyanobacteria behaves under microgravity using a custom-built bioreactor. This innovative initiative aimed to explore the potential of these microorganisms for oxygen production and waste recycling in space environments. The bioreactor was designed to monitor cyanobacteria growth, metabolism, and adaptability precisely.`,
     images: [
@@ -104,9 +104,11 @@ export const projects: Record<string, {
   },
   "can-sbx-viii": {
     title: "CAN-SBX-VIII",
-    date: "2025-Present",
-    tagline: "Work In Progress",
+    date: "2025-26",
+    tagline: "Mission success!",
     text: `MSW’s CAN-SBX VIII project aims engineer a photobiocell reactor (PHOEBE) designed to study the bioelectric performance of cyanobacteria under stratospheric conditions. The system will continuously monitor electrical output and oxygen evolution, to assess how radiation affects photosynthetic energy generation and metabolic activity. By understanding these responses, PHOEBE supports the development of biological power and life support systems for future space missions.`,
-    images: [{ id: "1", src: canSbxVIIImg1, alt: "Image 1", class: "img-1" }],
+    images: [
+      { id: "1", src: canSbxVIIImg1, alt: "Image 1", class: "img-1" }
+    ],
   },
 };

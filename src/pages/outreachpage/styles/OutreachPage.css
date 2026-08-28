@@ -1,4 +1,4 @@
-#events {
+#events-outreach {
   display: block;
   width: 100vw;
   min-height: 2450px;
@@ -54,12 +54,12 @@
   padding: 0px;
 }
 
-#events > h1 {
+#events-outreach > h1 {
   padding-top: 100px;
   font-family: 'Lexend Giga', Arial;
 }
 
-#events > p {
+#events-outreach > p {
   padding-top: 15px;
   padding-bottom: 50px;
 }
@@ -117,13 +117,13 @@
 /* Medium-small devices */
 @media (max-width: 600px) {
 
-  #events {
+  #events-outreach {
     min-height: fit-content;
     padding-top: 140px;
     padding-bottom: 140px;
   }
 
-  #events > h1 {
+  #events-outreach > h1 {
     font-size: 2.8rem;
   }
 
@@ -247,7 +247,7 @@
     margin-top: 100px;
   }
 
-  #events > h1 {
+  #events.outreach > h1 {
     font-size: 2.2rem;
   }
 

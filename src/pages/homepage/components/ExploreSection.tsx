@@ -24,7 +24,7 @@ export function ExploreSection() {
 
         <motion.div {...fadeUp} className="involve-section">
           <img src={OutreachPicture} alt="team picture" />
-          <Link to="wip"><button className="involve-button">get involved</button></Link>
+          <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfFngJP9f9xXPBy2yOw5_cGnOaIvemSZ39k2S_oF6PB1Kywpw/viewform?pli=1"><button className="involve-button">get involved</button></Link>
         </motion.div>
       </section>
     </>

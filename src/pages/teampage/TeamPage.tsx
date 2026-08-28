@@ -1,9 +1,9 @@
 import "./TeamPage.css";
-import TeamPhoto from "../../assets/images/team/team-photo.png";
+import TeamPhoto from "../../assets/images/team/2025-2026/team-photo.png";
 import LinkedinIcon from "../../assets/images/icons/linkedin-icon.png";
 import WebLinkIcon from "../../assets/images/icons/web-link-icon.png";
-import { teamMembers } from "../../data/team/2024-2025/teamInfoData";
-import type { TeamMember } from "../../data/team/2024-2025/teamInfoData";
+import { teamMembers } from "../../data/team/2025-2026/teamInfoData";
+import type { TeamMember } from "../../data/team/2025-2026/teamInfoData";
 import FadeTextDiv from '../../animations/fade-text-div';
 import { motion } from "framer-motion";
 import { fade } from "../../animations/animations.tsx";
@@ -20,14 +20,14 @@ const groupByRole = (members: TeamMember[]) => {
 
 export function TeamPage() {
   const groupedMembers = groupByRole(teamMembers);
-  const roleOrder = ["Execs", "Mechanical", "Electrical", "Software", "Science", "Admin", "Outreach"];
+  const roleOrder = ["Execs", "Mechanical", "Electrical", "Software", "Science", "Admin", "Outreach", "Finance"];
 
   return (
     <>
       <section id="team-section">
         <img src={TeamPhoto} alt="team image photo" />
         <div className="date-section">
-          <p>2024-2025</p>
+          <p>2025-2026</p>
         </div>
 
         {roleOrder.map(role => (
