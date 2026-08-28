@@ -21,7 +21,7 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     name: "Surabhi Sonanwane",
-    role: "President & Science Lead",
+    role: "President",
     group: "Execs",
     image: Surabhi,
     website: "",
