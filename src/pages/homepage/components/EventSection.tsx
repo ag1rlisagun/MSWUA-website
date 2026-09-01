@@ -13,7 +13,7 @@ export function EventSection() {
             <h1 className="header">Fall Clubs Fair ‘26</h1>
             <p className= "date">Sept. 1, <b>2-4PM</b> & Sept. 2, <b>12-4PM</b></p>
             <p className="event-description">Stop by the Mission SpaceWalker table at the Clubs Fair! Meet our members, learn about the cool projects we’re working on and find out how you can get involved. We’ve got a place for you!</p>
-            <a href="https://www.instagram.com/p/DN63-bDj2YC/" target="_blank" rel="noreferrer noopener"><button className="info-button">i n f o</button></a>
+            <a href="https://www.instagram.com/p/DcsH2wbhJTR/" target="_blank" rel="noreferrer noopener"><button className="info-button">i n f o</button></a>
             <img src={EventBoxes} alt="event box" draggable="false" />
           </motion.div>
           <motion.div {...fadeBlurUp} className="event-boxes">
